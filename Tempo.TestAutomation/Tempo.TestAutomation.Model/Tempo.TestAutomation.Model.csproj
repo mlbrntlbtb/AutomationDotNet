@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="API\" />
+    <Folder Include="Mobile\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExtentReports" Version="4.1.0" />
+    <PackageReference Include="itext7" Version="7.2.5" />
+    <PackageReference Include="Selenium.Support" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Datacom.TestAutomation\Datacom.TestAutomation.API.RestSharp\Datacom.TestAutomation.API.RestSharp.csproj" />
+    <ProjectReference Include="..\..\Datacom.TestAutomation\Datacom.TestAutomation.Common\Datacom.TestAutomation.Common.csproj" />
+    <ProjectReference Include="..\..\Datacom.TestAutomation\Datacom.TestAutomation.Mobile.Appium\Datacom.TestAutomation.Mobile.Appium.csproj" />
+    <ProjectReference Include="..\..\Datacom.TestAutomation\Datacom.TestAutomation.Web.Selenium\Datacom.TestAutomation.Web.Selenium.csproj" />
+  </ItemGroup>
+
+</Project>

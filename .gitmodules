@@ -1,0 +1,4 @@
+[submodule "Datacom.TestAutomation"]
+	path = Datacom.TestAutomation
+	url = https://gitlab.datacomdev.co.nz/datacomqa/selenium/dotnet/datacom-test-automation.git
+	branch = client/Tempo

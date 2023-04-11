@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tempo.TestAutomation.Model", "Tempo.TestAutomation.Model\Tempo.TestAutomation.Model.csproj", "{AFE4FC81-F078-496C-9B9F-E7DB876B7DD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tempo.TestAutomation.Tests.Web", "Tempo.TestAutomation.Tests.Web\Tempo.TestAutomation.Tests.Web.csproj", "{BD87C8D4-0F55-4071-887B-0381A7C7A41B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tempo.TestAutomation.Tests.API", "Tempo.TestAutomation.Tests.API\Tempo.TestAutomation.Tests.API.csproj", "{88F1C25B-2235-4A1B-A272-29D45564CF98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tempo.TestAutomation.Tests.Mobile", "Tempo.TestAutomation.Tests.Mobile\Tempo.TestAutomation.Tests.Mobile.csproj", "{50176F7E-D8FC-413F-882E-A25CB38684EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datacom.TestAutomation.Common", "..\Datacom.TestAutomation\Datacom.TestAutomation.Common\Datacom.TestAutomation.Common.csproj", "{919ED18B-790B-4055-A14E-DA14865DFAE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datacom.TestAutomation.Web.Selenium", "..\Datacom.TestAutomation\Datacom.TestAutomation.Web.Selenium\Datacom.TestAutomation.Web.Selenium.csproj", "{3A80247C-B554-4094-88D1-20E1A10523AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datacom.TestAutomation.Mobile.Appium", "..\Datacom.TestAutomation\Datacom.TestAutomation.Mobile.Appium\Datacom.TestAutomation.Mobile.Appium.csproj", "{72E48FA0-3054-4F7E-A57A-01720CF52B71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datacom.TestAutomation.API.RestSharp", "..\Datacom.TestAutomation\Datacom.TestAutomation.API.RestSharp\Datacom.TestAutomation.API.RestSharp.csproj", "{4A1FCD6C-BCF9-4F7A-90D3-EA41D0BFCEC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datacom.TestAutomation.UnitTests", "..\Datacom.TestAutomation\Datacom.TestAutomation.UnitTests\Datacom.TestAutomation.UnitTests.csproj", "{B161EB65-FB4F-49DF-B6B4-E75847FB1511}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFE4FC81-F078-496C-9B9F-E7DB876B7DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE4FC81-F078-496C-9B9F-E7DB876B7DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE4FC81-F078-496C-9B9F-E7DB876B7DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE4FC81-F078-496C-9B9F-E7DB876B7DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD87C8D4-0F55-4071-887B-0381A7C7A41B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD87C8D4-0F55-4071-887B-0381A7C7A41B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD87C8D4-0F55-4071-887B-0381A7C7A41B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD87C8D4-0F55-4071-887B-0381A7C7A41B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88F1C25B-2235-4A1B-A272-29D45564CF98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F1C25B-2235-4A1B-A272-29D45564CF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F1C25B-2235-4A1B-A272-29D45564CF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F1C25B-2235-4A1B-A272-29D45564CF98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50176F7E-D8FC-413F-882E-A25CB38684EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50176F7E-D8FC-413F-882E-A25CB38684EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50176F7E-D8FC-413F-882E-A25CB38684EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50176F7E-D8FC-413F-882E-A25CB38684EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{919ED18B-790B-4055-A14E-DA14865DFAE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919ED18B-790B-4055-A14E-DA14865DFAE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{919ED18B-790B-4055-A14E-DA14865DFAE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{919ED18B-790B-4055-A14E-DA14865DFAE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A80247C-B554-4094-88D1-20E1A10523AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A80247C-B554-4094-88D1-20E1A10523AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A80247C-B554-4094-88D1-20E1A10523AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A80247C-B554-4094-88D1-20E1A10523AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72E48FA0-3054-4F7E-A57A-01720CF52B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E48FA0-3054-4F7E-A57A-01720CF52B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E48FA0-3054-4F7E-A57A-01720CF52B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E48FA0-3054-4F7E-A57A-01720CF52B71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1FCD6C-BCF9-4F7A-90D3-EA41D0BFCEC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1FCD6C-BCF9-4F7A-90D3-EA41D0BFCEC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1FCD6C-BCF9-4F7A-90D3-EA41D0BFCEC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1FCD6C-BCF9-4F7A-90D3-EA41D0BFCEC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B161EB65-FB4F-49DF-B6B4-E75847FB1511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B161EB65-FB4F-49DF-B6B4-E75847FB1511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B161EB65-FB4F-49DF-B6B4-E75847FB1511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B161EB65-FB4F-49DF-B6B4-E75847FB1511}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF250C66-A6C0-4025-AE4C-23474A5322BB}
+	EndGlobalSection
+EndGlobal

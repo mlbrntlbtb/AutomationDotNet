@@ -1,0 +1,10 @@
+{
+  "ConsignmentDetails": {
+    "Customer": "SmartLift",
+    "Service": "2 HR",
+    "DeliveryAddressLookup": "67 Gloucester Street",
+    "EquipmentType": "TestingOnly",
+    "Quantity": "1"
+  }
+}
+

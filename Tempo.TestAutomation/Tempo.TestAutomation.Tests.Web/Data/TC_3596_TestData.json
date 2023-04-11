@@ -1,0 +1,35 @@
+{
+  "CustomerPortal_TargetPage": "ADD NEW CONSIGNMENT",
+  "Tempo_TargetPage": "Orders",
+  "ServiceDetails": {
+    "Service": "2 day",
+    "Reference": "Test Data By Automation",
+    "SpecialInstructions": "Test Data By Automation"
+  },
+  "DeliveryDetails": {
+    "ContactName": "Wayne",
+    "Company": "Automation",
+    "Address": "141 Cambridge Ter, Christchurch Central, Christchurch 8013",
+    "Email": "waynewa@datacom.co.nz",
+    "SaveNewContact": "false"
+  },
+  "AddItemDetails": {
+    "PackageType": "Flowers",
+    "Quantity": "1",
+    "Weight": "1.00",
+    "Length": "1.00",
+    "Width": "1.00",
+    "Height": "1.00",
+    "Volume": "1.000"
+  },
+  "FileName": "Consignment Note",
+  "FileName2": "Consignment Note Report",
+  "FileExtension": ".pdf",
+  "FileContentDetails": {
+    "Quantity": "Total Quantity: 1",
+    "Dimensions": "Weight (kg) L x W x H (m) Volume (m3)",
+    "Values": "1.00 1.00 x 1.00 x 1.00 1.000"
+  },
+  "OrderRowIndex": "0",
+  "PrintMenu": "Consignment Note"
+}

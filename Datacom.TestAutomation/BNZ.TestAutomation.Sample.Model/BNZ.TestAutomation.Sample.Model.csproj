@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="34.0.2" />
+    <PackageReference Include="ExtentReports" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Datacom.TestAutomation.Common\Datacom.TestAutomation.Common.csproj" />
+    <ProjectReference Include="..\Datacom.TestAutomation.Web.Selenium\Datacom.TestAutomation.Web.Selenium.csproj" />
+  </ItemGroup>
+
+</Project>

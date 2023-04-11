@@ -1,0 +1,17 @@
+{
+    "TestUsers": {
+        "Admin": {
+            "Username": "administrator",
+            "Password": ""
+        },
+        "RouteUser": {
+            "Username": "Aut001",
+            "Password": ""
+        }
+    },
+
+    "RouteDetail": {
+            "RouteName": "Perf003"
+        },
+        "JobStatuses": [ "Dispatched", "Scheduled", "Accepted", "Completed" ]
+}

@@ -1,0 +1,190 @@
+{
+  "TestUsers": {
+    "Admin": {
+      "Username": "administrator",
+      "Password": ""
+    },
+    "RouteUser": {
+      "Username": "Aut001",
+      "Password": ""
+    },
+    "PasswordResetUser": {
+      "Username": "Perf049",
+      "Password": ""
+    },
+    "CustomerPortalUser": {
+      "Username": "perf050",
+      "Password": ""
+    }
+
+  },
+  "TC_1793_CreateAndCancelDispatchJob": {
+    "JobDetails": {
+      "JobType": "Pickup",
+      "Route": "Perf002",
+      "Reference": "TestAuto",
+      "ItemCount": "1",
+      "SpecialInstruction": "Automation Testing",
+      "ColumnName": "Job Ref",
+      "RowToCheck": "5"
+    },
+    "PickUpDetails": {
+      "Address": "67 Gloucester Street",
+      "EmailAddress": "testpickup@test.com"
+    },
+    "DeliveryDetails": {
+      "EmailAddress": "test@test.com",
+      "Address": "7 Victoria St, Wellington Central, Wellington 6011, New Zealand"
+    }
+  },
+  "TC_1794_AddOrderAndDispatchToRoute": {
+    "Customer": "SmartLift Systems LTD",
+    "Service": "2 HR",
+    "Reference": "TestAuto",
+    "OrderInternalNotes": "Automation Testing Notes",
+    "Surcharge": {
+      "SurchargeName": "Additional Items",
+      "Description": "Add Additional Items"
+    },
+    "JobDetails": {
+      "JobType": "Pickup",
+      "Route": "Perf001",
+      "Reference": "TestAuto",
+      "ItemCount": "1",
+      "SpecialInstruction": "Automation Testing",
+      "ColumnName": "Job Ref",
+      "RowToCheck": "5"
+    },
+    "PickUpDetails": {
+      "Address": "",
+      "EmailAddress": ""
+    },
+    "DeliveryDetails": {
+      "EmailAddress": "",
+      "Address": ""
+    }
+  },
+  "TC_1941_CreateService": {
+    "Customer": "SmartLift Systems LTD",
+    "Service": "2 HR",
+    "Reference": "Automation test",
+    "OrderInternalNotes": "Automation Testing Notes",
+    "JobDetails": {
+      "JobType": "Pickup",
+      "Route": "Perf001",
+      "Reference": "Automation test",
+      "ItemCount": "1",
+      "SpecialInstructions": "Automation test",
+      "ColumnName": "Job Ref",
+      "RowToCheck": "5"
+    },
+    "PickUpDetails": {
+      "Address": "",
+      "EmailAddress": ""
+    },
+    "DeliveryDetails": {
+      "EmailAddress": "",
+      "Address": ""
+    }
+  },
+  "TC_1823_CustomerFunctions": {
+    "CustomerDetails": {
+      "Customer": "Burger Field"
+    }
+  },
+  "TC_1826_UpdateAndAddBranch": {
+    "Details": {
+      "ShortName": "AUTBRANCH",
+      "Name": "Automation Branch",
+      "Description": "Automation Branch Description",
+      "Code": "AUT",
+      "Key": "AUT"
+    }
+  },
+  "TC_2730_CreateJobActionBranch": {
+    "Customer": "Aaron Gonzales",
+    "Service": "60 minute",
+    "JobDetails": {
+      "JobType": "Pickup",
+      "ActionBranch": "Branch1",
+      "ScheduledDateFormat": "dd/MM/yyyy"
+    }
+  },
+  "TC_1814_DispatchJob_Customer1": {
+    "Customer": "Aaron Gonzales",
+    "Service": "60 minute",
+    "Route": "Perf001",
+    "SuspendAutoUpdates": "Suspend Auto Updates",
+    "JobDetails": {
+      "JobType": "Pickup",
+      "ActionBranch": "Branch1",
+      "ScheduledDateFormat": "dd/MM/yyyy"
+    }
+  },
+  "TC_1840_ManualEventCreation": {
+    "JobWorkflowDetails": {
+      "ShortName": "AT"
+    }
+  },
+  "TC_1840_CreateDispatchJob": {
+    "JobDetails": {
+      "ColumnName": "Urgent",
+      "JobType": "Automation test",
+      "Reference": "Automation test",
+      "ItemCount": "1",
+      "SpecialInstruction": "Automation Testing"
+    },
+    "PickUpDetails": {
+      "Address": "67 Gloucester Street",
+      "Suburb": "Christcurch City"
+    }
+  },
+  "TC_1814_DispatchJob_Customer2": {
+    "Customer": "Abbie G. Fields",
+    "Service": "60 minute",
+    "Route": "Perf001",
+    "JobDetails": {
+      "JobType": "Pickup",
+      "ActionBranch": "Branch1",
+      "ScheduledDateFormat": "dd/MM/yyyy"
+    }
+  },
+  "TC_1822_FreightFunctions": {
+    "ConsignmentNumber": "CON002",
+    "ColumnName": "Barcode",
+    "ParentMenu": {
+      "Columns": "Columns"
+    },
+    "ChildMenu": {
+      "ItemID": "Item Id"
+    },
+    "MenuList": {
+      "SaveLayout": "Save Layout",
+      "ClearLayout": "Clear Layout",
+      "AddConsignment": "Add Consignment"
+    },
+    "ConsignmentDetails": {
+      "Customer": "SmartLift Systems LTD",
+      "Service": "2 HR",
+      "Reference": "Automation Test",
+      "ConsignmentNotes": "TestAuto",
+      "PaperWorkRequired": "Yes",
+      "ScannedItems": "1",
+      "DeliveryAddress": "67 Gloucester Street",
+      "Description": "Automation test",
+      "Quantity": "1",
+      "Weight": "1",
+      "Volume": "1",
+      "CreateJob": "Delivery",
+      "AssignToRoute": "Perf001"
+
+    }
+  },
+  "TC_1821_SearchOrder": {
+    "OrderNumber": "00085935",
+    "ColumnName": "Service",
+    "Service": "2 HR",
+    "JobColumnName": "Reference",
+    "Reference": "Automation Testing Notes"
+  }
+}

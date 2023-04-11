@@ -1,0 +1,23 @@
+{
+  "TC_5281_DispatchJob_Customer1": {
+    "Customer": "Aaron Gonzales",
+    "Service": "60 minute",
+    "Route": "Aut001",
+    "SuspendAutoUpdates": "Suspend Auto Updates",
+    "JobDetails": {
+      "JobType": "Pickup",
+      "ActionBranch": "Branch1",
+      "ScheduledDateFormat": "dd/MM/yyyy"
+    }
+  },
+  "TC_5281_DispatchJob_Customer2": {
+    "Customer": "Abbie G. Fields",
+    "Service": "60 minute",
+    "Route": "Aut001",
+    "JobDetails": {
+      "JobType": "Pickup",
+      "ActionBranch": "Branch1",
+      "ScheduledDateFormat": "dd/MM/yyyy"
+    }
+  }
+}

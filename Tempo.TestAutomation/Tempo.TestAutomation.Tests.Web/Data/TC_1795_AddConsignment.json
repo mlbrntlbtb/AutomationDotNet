@@ -1,0 +1,17 @@
+{
+  "ConsignmentDetails": {
+    "Customer": "SmartLift Systems LTD",
+    "Service": "2 HR",
+    "Reference": "Automation Test",
+    "ConsignmentNotes": "Automation Testing Notes",
+    "PaperWorkRequired": "Yes",
+    "ScannedItems": "1",
+    "DeliveryAddress": "67 Gloucester Street",
+    "Description": "Automation test",
+    "Quantity": "1",
+    "Weight": "1",
+    "Volume": "1",
+    "CreateJob": "Delivery",
+    "AssignToRoute": "Perf001"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Payee": {
+    "Browser": "chrome",
+    "DriverPath": "C:\\WebDrivers",
+    "DownloadDirectory": "C:\\WebDrivers",
+    "DefaultTimeoutSeconds": 30,
+    "Headless": false,
+    "EnableEventFiringWebDriver": false,
+    "CloseBrowserAfterRun": false,
+    "ReuseWebDriver": false,
+    "SessionID": "4b2116ac1d600f141ef82c2e3416d50c",
+    "ExecutorURL": "http://localhost:59234/"
+  }
+}

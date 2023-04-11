@@ -1,0 +1,7 @@
+{
+  "ProcessFilterTableBy": "Delivery",
+  "TableColumnHeadingSettings":  "Short Display Name",
+  "ConfigurationTabDetails": {
+    "ProcessTitleHelpText": "'Specifies the process title text.'"
+  }
+}

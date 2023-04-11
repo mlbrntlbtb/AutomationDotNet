@@ -1,0 +1,13 @@
+{
+  "ColumnName": "Label",
+  "RowText": "Create consignment with order",
+  "CreateConsignmentOrderValue1": "Optional",
+  "CreateConsignmentOrderValue2": "Yes",
+  "MenuItem": "View Audit",
+  "ToastMessage": "Create consignment with order was saved successfully.",
+  "AuditHistory": {
+    "DateFormat": "dd/MM/yyyy",
+    "Activity": "Create consignment with order was changed by administrator",
+    "ConfigurationSetting": "CreateConsignmentWithOrder"
+  }
+}
